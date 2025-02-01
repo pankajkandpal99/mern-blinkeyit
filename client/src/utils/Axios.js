@@ -1,9 +1,9 @@
 import axios from "axios";
 import { summaryApi } from "../common/SummaryApi";
-const baseURL = import.meta.env.VITE_API_BASE_URL;
+const BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 const Axios = axios.create({
-  baseURL: baseURL,
+  baseURL: BASE_URL,
   withCredentials: true,
 });
 

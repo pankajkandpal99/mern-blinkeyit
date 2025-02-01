@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Axios from "../utils/axios";
+import Axios from "../utils/axios.js";
 import { summaryApi } from "../common/SummaryApi";
 import toast from "react-hot-toast";
 import { useDispatch } from "react-redux";

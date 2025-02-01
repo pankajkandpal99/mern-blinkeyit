@@ -1,5 +1,5 @@
 import axios from "axios";
-import { summaryApi } from "../common/SummaryApi";
+import { summaryApi } from "../common/SummaryApi.js";
 const BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 const Axios = axios.create({
